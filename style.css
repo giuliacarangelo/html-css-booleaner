@@ -1,12 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 header {
     background-color: #4ea0ff;
+    width: 100%;
     height: 120px;
 }
 
 .header-pattern {
-    width: 1080px;
+    background-image: url(./img/pattern.png);
+    height: 120px;
+    background-size: 35%;
+    background-repeat: repeat;
 }
 
-.pattern-image {
-    background-repeat: repeat; 
+h1{
+    margin-bottom: 0px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.writers-signature {
+    color: gray;
+    margin: 0px;
+}
+
+.the-booleaner {
+    color:rgb(0, 174, 255);
+}
+
+.data {
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+.highlighted-text {
+    background-color: yellow;
 }
